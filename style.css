@@ -156,7 +156,8 @@ aside h2 {
 
 .item:hover {
   cursor: pointer;
-  filter: drop-shadow(0 0 0.6rem var(--color-base-gray-light));
+  background-color: var(--color-base-white-traslucent);
+  filter: contrast(50%) brightness(0.9);
 }
 
 .item img {
